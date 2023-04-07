@@ -96,7 +96,9 @@ display: none;
 background-color: black;
 }
 #alerta p {
-
 font-size: 3em;
 color: #FB48C4;
+}
+#alerta img {
+padding-left: 40%;
 }
