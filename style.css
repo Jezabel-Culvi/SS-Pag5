@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style-type: none;
+}
+body {
+background-image: url("https://tse1.mm.bing.net/th?id=OIP.bxc20wsAXmBiftYUMvKrtQHaCs&pid=Api&P=0");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+font-family: 'Righteous', cursive;
+}
+nav {
+align-items: center;
+height: 10vh;
+background-color: #E9EC6B;
+display: flex;
+justify-content: space-between;
+padding: 0.5% 5%;
+}
+
+nav a {
+text-decoration: none;
+color: black;
+font-size: 1.5em;
+}
+nav a:hover {
+text-decoration: underline 3px solid #B1A2CA;
+}
+
+.inicio {
+display: inline-flex;
+gap: 30px;
+
+}
+.acceso {
+display: inline-flex;
+gap: 30px;
+}
+main {
+display: grid;
+grid-template-columns:70% 30%;
+height: 80vh;
+}
+.text {
+text-align: center;
+padding-top
+}
+h1 {
+font-size: 4em;
+padding: 10% 5%;
+}
+h3 {
+font-size: 2.5em;
+padding: 0% 7%;
+}
+hr {
+border: 2px solid #8BD3E6;
+}
+footer {
+text-align: center;
+padding: 1.5%;
+}
+footer a {
+color: black;
+text-decoration: none;
+font-size: 1em;
+}
+footer a:hover {
+text-decoration: underline 3px solid #B1A2CA;
+}
+.btn {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.bt{
+width: 30%;
+height: 10%;
+border-radius: 20%;
+border: 3px solid #FC8F32;
+background-color: #EFBE7D;
+font-size: 2em;
+padding: 2%;
+cursor: pointer;
+font-family: 'Righteous', cursive;
+}
+#alerta {
+margin: 15% 10%;
+padding: 2%;
+border: 2px dashed #FB48C4;
+display: none;
+background-color: black;
+}
+#alerta p {
+
+font-size: 3em;
+color: #FB48C4;
+}
